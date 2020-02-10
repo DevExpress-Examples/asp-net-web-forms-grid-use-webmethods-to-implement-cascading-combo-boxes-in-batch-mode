@@ -16,14 +16,6 @@ public partial class _Default : System.Web.UI.Page {
 		grid.DataSource = DataProvider.GetCustomers();
 	}
 
-	protected void CityCmb_Init(object sender, EventArgs e) {
-		ASPxComboBox cityCombo = sender as ASPxComboBox;
-		GridViewEditItemTemplateContainer container = cityCombo.NamingContainer as GridViewEditItemTemplateContainer;
-		int countryID = Convert.ToInt32(container.Grid.GetRowValues(container.Grid.VisibleStartIndex, "CountryID"));
-		grid.JSProperties["cplastCountryID"] = countryID;
-		cityCombo.DataSource = DataProvider.GetCities(countryID);
-	}
-
 	protected void grid_BatchUpdate(object sender, DevExpress.Web.Data.ASPxDataBatchUpdateEventArgs e) {
 		foreach(var args in e.InsertValues)
 			DataProvider.InsertCustomer((string)args.NewValues["CustomerName"], (int)args.NewValues["CountryID"], (int)args.NewValues["CityID"]);

@@ -8,7 +8,7 @@ function CountriesCombo_SelectedIndexChanged(s, e) {
 	PageMethods.GetCities(lastCountryID, CitiesCombo_OnSuccessGetCities);
 }
 function IntializeGlobalVariables(grid) {
-	lastCountryID = grid.cplastCountryID;
+	lastCountryID = -1;
 	currentEditableVisibleIndex = -1;
 	lastCityID = -1;
 }
