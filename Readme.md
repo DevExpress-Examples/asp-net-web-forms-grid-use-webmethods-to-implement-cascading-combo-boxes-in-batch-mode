@@ -5,7 +5,7 @@
 <!-- default badges end -->
 # Grid View for ASP.NET Web Forms - How to use WebMethods to implement cascading combo boxes in batch edit mode
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/t356740/)**
+**[[Run Online]](https://codecentral.devexpress.com/128534636/)**
 <!-- run online end -->
 
 This example demonstrates how to implement cascading combo box editors in batch mode and use **WebMethods** to populate the editors with data. This example combines the following approaches:
