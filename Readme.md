@@ -30,7 +30,7 @@ function CountriesCombo_SelectedIndexChanged(s, e) {
 }
 ```
 
-To enable this functionality, add the [ScriptManager](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxScriptManager) control to the page and set its [EnablePageMethods](https://learn.microsoft.com/en-us/dotnet/api/system.web.ui.scriptmanager.enablepagemethods?redirectedfrom=MSDN&view=netframework-4.8.1#System_Web_UI_ScriptManager_EnablePageMethods) property to `true`.
+To enable this functionality, add the [ScriptManager](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxScriptManager) control to the page and set its [EnablePageMethods](https://learn.microsoft.com/en-us/dotnet/api/system.web.ui.scriptmanager.enablepagemethods?view=netframework-4.8.1) property to `true`.
 
 ```aspx
 <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="true">
