@@ -4,9 +4,6 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 # Grid View for ASP.NET Web Forms - How to use WebMethods to implement cascading combo boxes in batch edit mode
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128534636/)**
-<!-- run online end -->
 
 This example demonstrates how to implement cascading combo box editors in batch mode and use **WebMethods** to populate the editors with data. This example combines the following approaches:
 
