@@ -1,6 +1,4 @@
-﻿Option Infer On
-
-Imports System.Web
+﻿Imports System.Web
 Imports System.Linq
 Imports System.Collections
 Imports System.Web.SessionState

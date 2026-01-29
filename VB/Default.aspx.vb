@@ -1,6 +1,4 @@
-﻿Option Infer On
-
-Imports DevExpress.Web
+﻿Imports DevExpress.Web
 Imports System
 Imports System.Collections
 Imports System.Web.Services
