@@ -47,7 +47,7 @@ To enable this functionality, add the [ScriptManager](https://docs.devexpress.co
 * [GridViewDataComboBoxColumn](https://docs.devexpress.com/AspNet/DevExpress.Web.GridViewDataComboBoxColumn)
 * [Script Manager](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxScriptManager)
 <!-- feedback -->
-## Does This Example Address Your Development Requirements/Objectives?
+## Does this example address your development requirements/objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-grid-use-webmethods-to-implement-cascading-combo-boxes-in-batch-mode&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-grid-use-webmethods-to-implement-cascading-combo-boxes-in-batch-mode&~~~was_helpful=no)
 
